@@ -18,7 +18,7 @@ function clickHandler() {
   function promise3(num){
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve(num-1)
+        resolve(num-3)
       }, 1000)
     })
   }
