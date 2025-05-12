@@ -50,7 +50,7 @@ function clickHandler() {
     div.textContent=`Result: ${res}`;
     return promise5(res)
   }).then((res)=>{
-    div.textContent=`Result: ${res}`;
+    div.textContent=`Final Result: ${res}`;
     
   })
 }
